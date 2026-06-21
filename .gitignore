@@ -1,0 +1,23 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Datos: ignoramos los .npy/ids (se regeneran), pero versionamos el CSV y las
+# señales crudas WFDB (records100/records500) de PTB-XL.
+data/*
+!data/ptbxl_clean.csv
+!data/records100/
+!data/records500/
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Artefactos generados
+figures/*.html
+
+# Sistema
+.DS_Store
+Thumbs.db
