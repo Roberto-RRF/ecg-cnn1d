@@ -1,0 +1,4 @@
+space-clone/
+.venv/
+__pycache__/
+*.pyc

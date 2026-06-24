@@ -1,0 +1,28 @@
+{
+  "n_ecgs": 21430,
+  "n_pacientes": 18637,
+  "edad_mediana": 61.0,
+  "edad_media": 59.704567814476455,
+  "pct_mujeres": 48.030797946803546,
+  "pct_hombres": 51.96920205319645,
+  "conteo_clases": {
+    "NORM": 9528,
+    "MI": 5486,
+    "STTC": 5250,
+    "CD": 4907,
+    "HYP": 2655
+  },
+  "pct_clases": {
+    "NORM": 44.5,
+    "MI": 25.6,
+    "STTC": 24.5,
+    "CD": 22.9,
+    "HYP": 12.4
+  },
+  "multietiqueta": {
+    "1_etiqueta": 16272,
+    "2_etiquetas": 4079,
+    "3+_etiquetas": 1079,
+    "0_etiquetas": 0
+  }
+}
